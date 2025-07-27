@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Set your DeepSeek API Key here
-DEEPSEEK_API_KEY = st.secretes["DEEPSEEK_API_KEY"]
+DEEPSEEK_API_KEY = "sk-677d17ccd0ab4fcc8196f0f561299c0a"
 
 # Function to query DeepSeek API
 def ask_deepseek(prompt):
